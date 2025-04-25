@@ -6,8 +6,6 @@ using Quartz.Impl;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddDependencies(builder);
 
 //IScheduler scheduler = await StdSchedulerFactory.GetDefaultScheduler();
