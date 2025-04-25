@@ -1,8 +1,4 @@
-using CrystalQuartz.AspNetCore;
 using csharp_quartz_scheduler.API.Extensions;
-using csharp_quartz_scheduler.API.Jobs;
-using Quartz;
-using Quartz.Impl;
 
 var builder = WebApplication.CreateBuilder(args);
 
